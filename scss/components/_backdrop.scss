@@ -1,0 +1,16 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    z-index: -101;
+    transition: opacity .5s;
+  }
+
+.backdrop-open {
+    opacity: .75;
+    background-color: $color-black;
+    z-index: 101;
+}

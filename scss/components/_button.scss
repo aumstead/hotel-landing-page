@@ -1,0 +1,33 @@
+.small-btn {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    color: $color-black;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color .5s;
+    letter-spacing: .1rem;
+
+    &:hover {
+        color: $color-grey;
+    }
+}
+
+.large-btn {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    color: $color-white;
+    text-decoration: none;
+    background-color: $color-black;
+    text-transform: uppercase;
+    padding: 1.1rem 2.5rem;
+    letter-spacing: .1rem;
+    border: 1px solid $color-black;
+    transition: all .7s;
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-black;
+    }
+}

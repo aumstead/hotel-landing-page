@@ -1,0 +1,121 @@
+.guest-photos {
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+    }
+
+    &__btn {
+        align-self: center;
+        margin-bottom: $margin-large;
+        @media only screen and (max-width: $bp-small-medium) {
+            margin-top: $margin-medium;
+        }
+    }
+}
+
+.photos {
+    &__flex-container {
+        display: flex;
+        @media only screen and (max-width: $bp-small-medium) {
+            flex-direction: column;
+        }
+    }
+
+    &__column {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        @media only screen and (max-width: $bp-small-medium) {
+            width: auto;
+            display: block;
+        }
+        @media only screen and (max-width: $bp-small) {
+            width: 80%;
+        }
+    
+        &--1 {
+            margin-top: $margin-large;
+            margin-left: $margin-large;
+            margin-bottom: $margin-medium;
+            @media only screen and (max-width: $bp-small-medium) {
+                margin-top: 0;
+                margin-left: 0;
+                margin-bottom: 0;
+                margin: 0 auto;
+            }
+            
+        }
+        &--2 {
+            justify-content: center;
+            @media only screen and (max-width: $bp-small-medium) {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__photo {
+        width: 100%;
+
+        &--guest1 {
+            width: 32rem;
+            @media only screen and (max-width: $bp-medium) {
+                width: 30rem;
+            }
+            @media only screen and (max-width: $bp-small-medium) {
+                margin-top: $margin-medium;
+            }
+            @media only screen and (max-width: $bp-small) {
+                width: 100%;
+            }
+        }
+
+        &--guest2 {
+            width: 40rem;
+            @media only screen and (max-width: $bp-medium) {
+                width: 35rem;
+                margin-right: 8rem;
+            }
+            @media only screen and (max-width: $bp-small-medium) {
+                margin-right: 0;
+                margin-top: 3rem;
+            }
+            @media only screen and (max-width: $bp-small) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__caption {
+        font-family: $font-sans;
+        letter-spacing: .1rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: flex-end;
+        @media only screen and (max-width: $bp-small-medium) {
+            margin-top: .2rem;
+        }
+        
+    }
+
+    &__wrapper {
+        &--3 {
+            align-self: flex-end;
+        }
+    }
+}
+
+
+.icon {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-right: 1rem;
+  }

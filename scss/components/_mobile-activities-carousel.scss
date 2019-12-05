@@ -1,0 +1,46 @@
+.activities-mobile {
+    @media only screen and (min-width: $bp-small-medium) {
+        display: none;
+    }
+
+    background-color: $color-black;
+    color: $color-white;
+
+    &__small-btn {
+        color: $color-white;
+        width: fit-content;
+        margin-left: 2rem;
+    }
+
+    &__carousel-cell {
+        width: 75%;
+        margin-right: 1.5rem;
+        background-size: cover;
+    }
+
+    &__details-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        border-left: 1px solid $color-white;
+    }
+
+    &__details-heading {
+        font-family: $font-sans;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    &__details-text {
+        font-family: $font-text;
+        font-size: 1.8rem;
+        letter-spacing: .03rem;
+        width: 95%;
+        line-height: 2.5rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+    }
+}

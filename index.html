@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/flickity.min.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Josefin+Slab|Tangerine|Work+Sans:200,300,400&display=swap" rel="stylesheet"> 
+
+        <title>Koh Samet White Sands Resort</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__slideshow">
+                <div class="header__slide header__slide--1" id="slide1"></div>
+                <div class="header__slide header__slide--2" id="slide2"></div>
+                <div class="header__slide header__slide--3" id="slide3"></div>
+                <div class="header__slide header__slide--4" id="slide4"></div>
+            </div>
+
+            <nav class="mobile-nav">
+                <div class="mobile-nav__logo">
+                    <a href="#"><div class="mobile-nav__svg"></div></a>
+                </div>
+                <div class="mobile-nav__btn-container">
+                    <div class="mobile-nav__open" id="open-btn">
+                        <span class="hamburger"></span>
+                    </div>
+                    <label for="open-btn" class="mobile-nav__open-text">Menu</label>
+                </div>
+            </nav>
+
+            <div class="backdrop" id="backdrop"></div>
+
+            <div class="side-drawer" id="nav-drawer">
+                <div class="side-drawer__close" id="close-btn">
+                    <span class="x-close"></span>
+                </div>
+                <div class="side-drawer__header-container">
+                    <a href="#" class="side-drawer__profile-link">My Profile</a>
+                    <div class="side-drawer__svg"></div>
+                    <a href="#" class="side-drawer__hotel-link">White Sands Resort<br>on Koh Samet, Suratthani, Thailand</a>
+                </div>
+                <hr class="side-drawer__hr" />
+                <ul class="side-drawer__nav">
+                    <li class="side-drawer__nav-item"><a href="#" class="side-drawer__nav-link side-drawer__nav-link--active">Resort Overview</a></li>
+                    <li class="side-drawer__nav-item"><a href="#" class="side-drawer__nav-link">Accomodations</a></li>
+                    <li class="side-drawer__nav-item"><a href="#" class="side-drawer__nav-link">Photos & Videos</a></li>
+                    <li class="side-drawer__nav-item"><a href="#" class="side-drawer__nav-link">Activities</a></li>
+                </ul>
+                <hr class="side-drawer__hr" />
+                <h5 class="side-drawer__sub-title">More from White Sands Resort on Koh Samet</h5>
+                <ul class="side-drawer__nav side-drawer__nav--secondary">
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Services &amp; Amenities</a></li>
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Dining</a></li>
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Spa</a></li>
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Weddings &amp; Events</a></li>
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Location</a></li>
+                    <li class="side-drawer__nav-item--secondary"><a href="#" class="side-drawer__nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar" id="navbar">
+                <div class="logo">
+                    <a href="#"><div class="logo__svg"></div></a>
+                </div>
+                <ul class="nav">
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--active">Resort Overview</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Accomodations</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Photos & Videos</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Activities</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero" id="intersection">
+                <h1 class="hero__title">White Sands Resort</h1>
+                <hr class="hero__hr" />
+                <div class="hero__award-flex-container">
+                    <div class="hero__leaf hero__leaf--left"></div>
+                    <div class="hero__award-text-flex-container">
+                        <p class="hero__sub-title">2019 Best Island Hotel</p>
+                        <p class="hero__attribute">
+                            Bangkok Leisure and Luxury Online
+                        </p>
+                    </div>
+                    <div class="hero__leaf hero__leaf--right"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="info-section">
+                <p class="info-section__address">
+                    5 Maenam, Koh Samet, Suratthani, Thailand 84330
+                </p>
+                <hr class="info-section__hr" />
+                <div class="info-section__btn-flex-container">
+                    <a href="#" class="small-btn">+(66) 077 984477</a>
+                    <a href="#" class="small-btn">Location</a>
+                </div>
+
+                <p class="info-section__description info-section__description--resort">
+                    Newly opened in 2019, White Sands Resort is a new class of
+                    luxury hotel on Koh Samet. Never before has island-paradise been
+                    paired with such modern elegance and extravagance. Here you will
+                    find a destination with with world-class facilities and the most
+                    exquisite food and drink in the Gulf of Thailand.
+                </p>
+            </section>
+
+            <section class="accomodations">
+                <h2 class="accomodations__title">ACCOMODATIONS</h2>
+                <div class="main-carousel">
+                    <div class="carousel-cell">
+                        <img
+                            src="./img/accomodation1.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="accomodations__details-container">
+                            <a href="#" class="large-btn accomodations__large-btn"
+                                >All accomodations</a
+                            >
+                            <h4 class="accomodations__details-heading">
+                                One-bedroom suite
+                            </h4>
+                            <p class="accomodations__details-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Id, ratione! Aspernatur at fugiat rem velit
+                                accusantium nihil tempora expedita, ad quod
+                                provident nisi culpa voluptate quidem assumenda
+                                animi recusandae doloremque?
+                            </p>
+                            <a href="#" class="small-btn accomodations__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <img
+                            src="./img/accomodation2.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="accomodations__details-container">
+                            <a href="#" class="large-btn accomodations__large-btn"
+                                >All accomodations</a
+                            >
+                            <h4 class="accomodations__details-heading">Two-bedroom villa with pool</h4>
+                            <p class="accomodations__details-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Consequuntur possimus vero placeat expedita
+                                optio, perspiciatis incidunt ex ducimus, vel
+                                reiciendis veniam illum dolor ratione eos velit.
+                                Quas quibusdam maiores cupiditate provident ullam
+                                voluptatibus ducimus.
+                            </p>
+                            <a href="#" class="small-btn accomodations__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <img
+                            src="./img/accomodation3.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="accomodations__details-container">
+                            <a href="#" class="large-btn accomodations__large-btn"
+                                >All accomodations</a
+                            >
+                            <h4 class="accomodations__details-heading">Three-bedroom Family residence</h4>
+                            <p class="accomodations__details-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Reprehenderit voluptatum vero beatae
+                                quibusdam. Corporis a, totam, temporibus magnam
+                                labore velit tempore aspernatur aperiam maxime
+                                possimus necessitatibus!
+                            </p>
+                            <a href="#" class="small-btn accomodations__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="discount">
+                <hr
+                    class="discount__hr discount__hr-thick discount__hr-thick--top"
+                />
+                <hr class="discount__hr discount__hr-thin discount__hr-thin--top" />
+                <div class="discount__content-container">
+                    <div class="discount__content">
+                        <p class="discount__title">Featured Offer</p>
+                        <h4 class="discount__heading">Weekend getaway discount</h4>
+                        <p class="discount__text">
+                            Enjoy a 15% discount and daily buffet breakfast when you
+                            stay in a one-bedroom resident suite for three or more
+                            nights.
+                        </p>
+                        <div class="discount__buttons-container">
+                            <a href="#" class="large-btn discount__large-btn"
+                                >Details</a
+                            >
+                            <a href="#" class="small-btn discount__small-btn"
+                                >All offers</a
+                            >
+                        </div>
+                    </div>
+                    <img src="./img/room4.jpg" alt="" class="discount__img" />
+                </div>
+
+                <hr
+                    class="discount__hr discount__hr-thin discount__hr-thin--bottom"
+                />
+                <hr
+                    class="discount__hr discount__hr-thick discount__hr-thick--bottom"
+                />
+            </section>
+
+            <section class="guest-photos">
+                <div class="photos__flex-container">
+                    <figure class="photos__column photos__column--1">
+                        <img
+                            src="./img/guest1.jpg"
+                            alt=""
+                            class="photos__photo photos__photo--guest1"
+                        />
+                        <figcaption class="photos__caption">
+                            <svg class="icon icon-camera"><use xlink:href="./img/symbol-defs.svg#icon-camera"></use></svg>@DunderMifflinPaperCo
+                        </figcaption>
+                    </figure>
+
+                    <figure class="photos__column photos__column--2">
+                        <div class="photos__wrapper photos__wrapper--3">
+                            <img
+                                src="./img/guest2.jpg"
+                                alt=""
+                                class="photos__photo photos__photo--guest2"
+                            />
+                            <figcaption class="photos__caption">
+                                <svg class="icon icon-camera"><use xlink:href="./img/symbol-defs.svg#icon-camera"></use></svg>@PamBeasley113
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+                <a href="#" class="large-btn guest-photos__btn">More guest photos</a>
+            </section>
+
+            <section class="mid-page-hero mid-page-hero--one">
+                <h4 class="mid-page-hero__heading">Privacy in Paradise</h4>
+                <p class="mid-page-hero__text">Enjoy a quiet afternoon on Koh Samet's longest private beach, Ao Phai, and wade into the warm waters of San Chalam Bay.</p>
+            </section>
+
+            <section class="info-section">
+                <h2 class="info-section__title info-section__title">White Sands Spa</h2>
+                <hr class="info-section__small-hr" />
+                <p class="info-section__description info-section__description--spa">
+                    Restore calm and tranquility with traditional Thai yoga massage. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci consectetur est optio odio at deserunt laborum tempore temporibus, ratione, saepe molestiae exercitationem architecto. Odit officiis inventore aperiam repudiandae consequuntur. Animi.
+                </p>
+                <div class="spa-photos">
+                    <figure class="spa-photos__column">
+                        <img
+                            src="./img/spa1.jpg"
+                            alt=""
+                            class="spa-photos__photo spa-photos__photo--spa1"
+                        />
+                    </figure>
+                    <figure class="spa-photos__column">
+                        <img
+                            src="./img/spa2.jpg"
+                            alt=""
+                            class="spa-photos__photo spa-photos__photo--spa2"
+                        />
+                    </figure>
+                </div>
+                <a href="#" class="large-btn spa-photos__btn">White Sands Spa</a>
+            </section>
+
+            <div class="activities-hero"></div>
+
+            <div class="activities-heading">
+                <h2 class="activities-heading__title">Experience Koh Samet</h2>
+                <hr class="activities-heading__small-hr" />
+            </div>
+
+            <section class="activities">
+                <div class="activity activity--one">
+                    <div class="activity__wrapper">
+                        <img src="./img/experience2.jpg" alt="" class="activity__photo activity__photo--one"/>
+                        <div class="activity-text-wrapper activity-text-wrapper--one">
+                            <h4 class="activities__heading activities__heading--one">Island Hopping</h4>
+                            <p class="activities__text activities__text--one">Explore the dozens of limestone islands dotting Koh Samet's skyline. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus ea soluta quidem maiores. Animi.</p>
+                            <a href="#" class="small-btn activities__small-btn activities__small-btn--one">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity activity--two">
+                    <img src="./img/experience3.jpg" alt="" class="activity__photo activity__photo--two">
+                    <div class="activity-text-wrapper activity-text-wrapper--two">
+                        <h4 class="activities__heading activities__heading--two">World-Class Diving</h4>
+                        <p class="activities__text activities__text--two">Learn to scuba dive from our experienced in-house instructors, or take your skills to the next level by exploring some of the best dives in the Gulf of Thailand. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur et culpa voluptates natus ex voluptatem aliquid omnis dolorum sunt illum.</p>
+                        <a href="#" class="small-btn activities__small-btn activities__small-btn--left">Details</a>
+                    </div>
+                </div>
+                <div class="activity activity--three">
+                    <div class="activity-text-wrapper activity-text-wrapper--three">
+                        <h4 class="activities__heading activities__heading--three">Cooking Lessons</h4>
+                        <p class="activities__text activities__text--three">Spend the morning learning to prepare some of Thailand's signature dishes. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non odio, corrupti soluta iure veniam accusamus rerum doloribus est modi, culpa eligendi maiores officia dicta! Est!</p>
+                        <a href="#" class="small-btn activities__small-btn activities__small-btn--three">Details</a>
+                    </div>
+                    <img src="./img/experience4.jpg" alt="" class="activity__photo activity__photo--three">
+                </div>
+                <div class="activity activity--four">
+                    <img src="./img/experience5.jpg" alt="" class="activity__photo activity__photo--four">
+                    <div class="activity-text-wrapper activity-text-wrapper--four">
+                        <h4 class="activities__heading activities__heading--four">Scenic Trails</h4>
+                        <p class="activities__text activities__text--four">Choose one of Koh Samet's three peaks for a picture perfect view of the skyline and nearby islands. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perferendis delectus dolor possimus tenetur vel.</p>
+                        <a href="#" class="small-btn activities__small-btn activities__small-btn--left">Details</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="activities-mobile">
+                <div class="secondary-carousel">
+                    <div class="activities-mobile__carousel-cell">
+                        <img
+                            src="./img/experience2-mobile.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="activities-mobile__details-container">
+                            <h4 class="activities-mobile__details-heading">
+                                Island Hopping
+                            </h4>
+                            <p class="activities-mobile__details-text">
+                                Explore the dozens of limestone islands dotting Koh Samet's skyline. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus ea soluta quidem maiores. Animi.
+                            </p>
+                            <a href="#" class="small-btn activities-mobile__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                    <div class="activities-mobile__carousel-cell">
+                        <img
+                            src="./img/experience3-mobile.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="activities-mobile__details-container">
+                            <h4 class="activities-mobile__details-heading">World-Class Diving</h4>
+                            <p class="activities-mobile__details-text">
+                                Learn to scuba dive from our experienced in-house instructors, or take your skills to the next level by exploring some of the best dives in the Gulf of Thailand. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur et culpa voluptates natus ex voluptatem aliquid omnis dolorum sunt illum.
+                            </p>
+                            <a href="#" class="small-btn activities-mobile__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                    <div class="activities-mobile__carousel-cell">
+                        <img
+                            src="./img/experience4-mobile.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="activities-mobile__details-container">
+                            <h4 class="activities-mobile__details-heading">Cooking Lessons</h4>
+                            <p class="activities-mobile__details-text">
+                                Spend the morning learning to prepare some of Thailand's signature dishes. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non odio, corrupti soluta iure veniam accusamus rerum doloribus est modi, culpa eligendi maiores officia dicta! Est!
+                            </p>
+                            <a href="#" class="small-btn activities-mobile__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                    <div class="activities-mobile__carousel-cell">
+                        <img
+                            src="./img/experience5-mobile.jpg"
+                            alt=""
+                            class="carousel-img"
+                        />
+                        <div class="activities-mobile__details-container">
+                            <h4 class="activities-mobile__details-heading">Scenic Trails</h4>
+                            <p class="activities-mobile__details-text">
+                                Choose one of Koh Samet's three peaks for a picture perfect view of the skyline and nearby islands. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, perferendis delectus dolor possimus tenetur vel.
+                            </p>
+                            <a href="#" class="small-btn activities-mobile__small-btn"
+                                >Details</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="activities-btn-container">
+                <a href="#" class="large-btn activities-btn">More Experiences</a>
+            </div>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="footer-logo">
+                <div class="footer-logo__svg"></div>
+                <p class="footer-logo__text">White Sands Resort</p>
+            </div>
+            <div class="footer-lists">
+                <ul class="footer-lists__list footer-lists__list--about">
+                    <li class="footer-lists__heading">About</li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">About us</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Careers</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Contact Us</a></li>
+                </ul>
+                <ul class="footer-lists__list footer-lists__list--reservations">
+                    <li class="footer-lists__heading">Reservations</li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Request an invoice</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Find a reservation</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Email Preferences</a></li>
+                </ul>
+                <ul class="footer-lists__list footer-lists__list--more">
+                    <li class="footer-lists__heading">More</li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Residences</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Private Retreats</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Weddings</a></li>
+                    <li class="footer-lists__item"><a href="#" target="_blank" class="footer-link">Gift Cards</a></li>
+                </ul>
+            </div> 
+            
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com" target="_blank" class="footer-icon__link"><div class="footer-icon footer-icon--facebook"></div></a>
+                <a href="https://www.instagram.com" target="_blank" class="footer-icon__link"><div class="footer-icon footer-icon--instagram"></div></a>
+                <a href="https://www.twitter.com" target="_blank" class="footer-icon__link"><div class="footer-icon footer-icon--twitter"></div></a>
+                <a href="https://www.youtube.com" target="_blank" class="footer-icon__link"><div class="footer-icon footer-icon--youtube"></div></a>
+            </div>
+            <hr class="footer-hr">
+            <ul class="footer-policies">
+                <li class="footer-policy"><a href="#" target="_blank" class="footer-policy__link">Legal Notice</a></li>
+                <li class="footer-policy"><a href="#" target="_blank" class="footer-policy__link">Privacy Policy</a></li>
+                <li class="footer-policy"><a href="#" target="_blank" class="footer-policy__link">Accessibility Policy</a></li>
+            </ul>
+            <p class="footer-copyright">&copy;Lorem, ipsum dolor. Design inspired by the Four Seasons website.</p>
+            
+        </footer>
+        <script src="./flickity.pkgd.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+// colors
+$color-white: #fff;
+$color-black: #000;
+$color-grey: rgb(182, 182, 182);
+$color-dark-grey: rgb(85, 85, 85);
+
+// font sizes
+$section-heading: 3rem;
+
+// font families
+$font-text: 'Cormorant Garamond', serif;
+$font-sans: 'Work Sans', sans-serif;
+
+//margin
+$margin-small: 3rem;
+$margin-medium: 6rem;
+$margin-large: 8rem;
+
+// breakpoints
+$bp-larger: 93.75em; // 1200px / 16 px = 75em
+$bp-large: 68.75em; // 1100px
+$bp-medium-large: 62.5em; // 1000px/16px = 62.5em
+$bp-medium: 56.25em; // 900 / 16
+$bp-small-medium: 46.875em; // 750 / 16
+$bp-small: 31.25em; // 500px
